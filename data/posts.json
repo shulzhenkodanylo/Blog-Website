@@ -1,0 +1,44 @@
+{
+    "posts": [
+        {
+            "id": "68934d1401a6c",
+            "author": "Danylo",
+            "title": "Albatross",
+            "content": "Albatrosses, of the biological family Diomedeidae, are large seabirds related to the procellariids, storm petrels, and diving petrels in the order Procellariiformes. They range widely in the Southern Ocean and the North Pacific",
+            "date": "2025-08-06",
+            "img": "68934d1401017albatross.jpeg"
+        },
+        {
+            "id": "68934d832176e",
+            "author": "WIkipedia",
+            "title": "Alligator",
+            "content": "An alligator, or colloquially gator, is a large reptile in the genus Alligator of the family Alligatoridae in the order Crocodilia. The two extant species are the American alligator (A. mississippiensis) and the Chinese alligator (A. sinensis). Additionally, several extinct species of alligator are known from fossil remains. Alligators first appeared during the late Eocene epoch about 37 million years ago",
+            "date": "2025-08-06",
+            "img": "68934d8320915alligator.jpg"
+        },
+        {
+            "id": "68934dbf03eb0",
+            "author": "Encyclopedia",
+            "title": "African buffalo",
+            "content": "The adult African buffalo's horns are its characteristic feature: they have fused bases, forming a continuous bone shield across the top of the head, referred to as a \"boss\".",
+            "date": "2025-08-06",
+            "img": "68934dbf039fbbuffalo.jpg"
+        },
+        {
+            "id": "6895f7f7eb7af",
+            "author": "ifaw",
+            "title": "Anteaters",
+            "content": "Anteaters are toothless and—as their name suggests—insectivorous, meaning they eat insects. Their diet consists primarily of ants and termites, which they capture by breaking apart insect nests with their clawed toes and then sticking their long tongues inside. ",
+            "date": "2025-08-08",
+            "img": "6895f7f7ea752Anteaters.jpeg"
+        },
+        {
+            "id": "6895fd2248465",
+            "author": "worldwildlife",
+            "title": "Arctic wolf",
+            "content": "Often called the \"polar wolf\" or \"white wolf,\" Arctic wolves inhabit the Arctic regions of North America and Greenland. Thanks to its isolation, the Arctic wolf is not threatened by hunting and habitat destruction in the same way as its southern relatives.",
+            "date": "2025-08-08",
+            "img": "6895fd2247a2dArcticwolf.jpeg"
+        }
+    ]
+}

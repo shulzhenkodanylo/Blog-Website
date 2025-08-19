@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Blog</title>
+    <link rel="stylesheet" href="/styles/style.css">
+    <script src="/scripts/homePage.js"></script>
+</head>
+<body>
+    <h1>Blog Task 4</h1>
+    <div class="blog_body">
+        {% for post in posts  %}
+            <div class="post_container">
+                <img src="/img/uploads/{{ post.getImg() }}" alt="Post Image" class="post_img">
+                <h2 class="post_title">{{ post.getTitle() }}</h2>
+                <p class="post_content">{{ post.getContent() }}</p>
+                <p class="post_date">{{ post.getDate()|date('Y-m-d') }}</p>
+                <p class="post_author">by {{ post.getAuthor() }}</p>
+            </div>
+        {% endfor %}
+
+   </div>
+{#    {% for images in image %}#}
+{#        <img src="{{ image }}" alt="">#}
+{#    {% endfor %}#}
+
+{#    <form action="" method="post" enctype="multipart/form-data">#}
+{#        <input type="file" name="image">#}
+
+{#        <input type="submit" name="upload_image" value="Upload">#}
+
+{#    </form>#}
+    <button type="button" class="open_button" onclick="openNewPostForm()">Add new Post</button>
+
+    <div class="new_post_form_popup" id="new_post_form">
+        <form action="" method="post" class="new_post_form_container" enctype="multipart/form-data">
+            <h3>Add Post</h3>
+
+            <label for="author">Add your Name</label>
+            <br>
+            <input type="text" name="author" id="author" placeholder="Enter Name" required>
+            <br>
+
+            <label for="title">Add Title</label>
+            <br>
+            <input type="text" name="title" id="title" placeholder="Enter Title" required>
+            <br>
+
+            <label for="content">Add Text</label>
+            <br>
+            <textarea name="content" id="content" placeholder="Enter text" required></textarea>
+            <br>
+
+            <label for="img">Upload image</label>
+            <br>
+            <input type="file" name="img" id="img">
+            <br>
+
+            <button type="submit" class="btn">Submit</button>
+            <button type="button" class="btn_cancel" onclick="closeNewPostForm()">Close</button>
+        </form>
+    </div>
+</body>
+</html>
